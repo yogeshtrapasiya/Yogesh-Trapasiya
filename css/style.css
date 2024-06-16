@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* montserrat-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v25-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/montserrat-v25-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v25-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/montserrat-v25-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/montserrat-v25-latin-300.svg#Montserrat') format('svg');
+    /* Legacy iOS */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v25-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/montserrat-v25-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/montserrat-v25-latin-regular.svg#Montserrat') format('svg');
+    /* Legacy iOS */
+}
+
+/* montserrat-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v25-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v25-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/montserrat-v25-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/montserrat-v25-latin-500.svg#Montserrat') format('svg');
+    /* Legacy iOS */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v25-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v25-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/montserrat-v25-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/montserrat-v25-latin-600.svg#Montserrat') format('svg');
+    /* Legacy iOS */
+}
+
+/* montserrat-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/montserrat-v25-latin-700.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/montserrat-v25-latin-700.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/montserrat-v25-latin-700.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/montserrat-v25-latin-700.svg#Montserrat') format('svg');
+    /* Legacy iOS */
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+
+:root {
+    --first-color: #5361FF;
+    --white-color: #FAFAFF;
+    --dark-color: #2A3B47;
+    --text-color: #697477;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.specer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.justify_content {
+    justify-content: center;
+}
+
+.align {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark-color);
+    border-bottom: 1px solid var(--dark-color);
+    padding-bottom: 15px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.fixed .hero {
+    height: 80px;
+}
+
+/* ==================== header start ==================== */
+
+nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    height: 100px;
+    background-color: var(--dark-color);
+    padding: 0 5%;
+
+}
+
+nav .logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+nav .links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .links li {
+    list-style: none;
+}
+
+nav .links a {
+    display: block;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+nav .links a:hover {
+    color: white;
+}
+
+nav .links a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav .links a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+    color: white;
+}
+
+#nav-toggle {
+    position: absolute;
+    top: -100px;
+}
+
+nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    nav .logo {
+        float: none;
+        width: auto;
+        justify-content: center;
+    }
+
+    nav .links {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(0, 0, 0, .8);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+
+    nav .links a {
+        font-size: 20px;
+    }
+
+    nav :checked~.links {
+        bottom: 0;
+    }
+
+    nav .icon-burger {
+        display: block;
+    }
+
+    nav :checked~.icon-burger .line:nth-child(1) {
+        transform: translateY(10px) rotate(225deg);
+    }
+
+    nav :checked~.icon-burger .line:nth-child(3) {
+        transform: translateY(-10px) rotate(-225deg);
+    }
+
+    nav :checked~.icon-burger .line:nth-child(2) {
+        opacity: 0;
+    }
+}
+
+/* ==================== header end ==================== */
+
+/*==================== home start ====================*/
+.home {
+    margin-top: 100px;
+}
+
+.home_title h1 {
+    color: var(--dark-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.img_up img {
+    max-width: 500px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/*==================== home end ====================*/
+
+/*==================== About start ====================*/
+.about {
+    padding-bottom: 50px;
+}
+
+
+.bio_right.img_up img {
+    max-width: 300px;
+}
+
+.bio_left {
+    width: 50%;
+    color: var(--dark-color);
+    font-size: 21px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.bio_left h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    margin-top: 15px
+}
+
+.bio_left p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.bio_icon {
+    margin-top: 20px;
+}
+
+.bio_icon li a:first-child {
+    margin-left: 0;
+}
+
+.bio_icon li a {
+    margin: 10px;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+/*==================== About end ====================*/
+
+/*==================== Skills start ====================*/
+#LLC {
+    padding-top: 100px;
+}
+
+.skills {
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.language_right h3 {
+    color: var(--first-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lagu_skills li {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    margin: 25px;
+    margin-left: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.lagu_skills li:hover {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+
+.skills_img {
+    width: 550px;
+}
+
+/*==================== Skills end ====================*/
+
+/*==================== Portfolio start ====================*/
+#Portfolio {
+    background-color: #fbfbfb;
+}
+
+.pro_work {
+    margin-top: 20px;
+}
+
+.work_1 img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.our-belief {
+    text-align: center;
+}
+
+.mission-vision-box-main {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.col-box-mission {
+    background-color: #fff;
+    width: calc(100% / 3 - 10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.our-belief img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.heading-mission-box {
+    color: #000;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 15px 0 15px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+/*==================== Portfolio end ====================*/
+
+/*==================== Contact start ====================*/
+.contact_right {
+    margin-top: 50px;
+}
+
+.contact_text h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--first-color);
+}
+
+.contact_text p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.contact_left {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.contact_left .form_input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#text_add {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+button {
+    margin: 20px 0 0 350px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: var(--dark-color);
+    background-color: var(--first-color);
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+iframe {
+    width: 100%;
+}
+
+#Contact .our-belief img {
+    max-width: 36px;
+}
+
+#Contact h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+#Contact .col-box-mission {
+    min-height: 220px;
+}
+
+/*==================== Contact end ====================*/
+
+/*==================== footer start ====================*/
+
+.footer {
+    background-color: var(--dark-color);
+    height: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.conatain {
+    padding: 0 50px;
+}
+
+.conatain h4 {
+    color: var(--white-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.conatain p {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    color: var(--white-color);
+}
+
+.footer_title {
+    padding-top: 20px;
+}
+
+.footer_title li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+}
+
+.footer_title li a {
+    color: var(--white-color);
+}
+
+.footer_icon {
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.conatain i {
+    color: var(--white-color);
+    padding: 5px;
+}
+
+/*==================== footer end ====================*/
+
+
+@media(max-width: 1024px) {
+    .home_title h1 {
+        font-size: 50px;
+    }
+
+    .img_up img {
+        max-width: 350px;
+    }
+}
+
+@media(max-width: 992px) {
+    .bio {
+        justify-content: space-between !important;
+    }
+
+    .bio_left h2 {
+        font-size: 26px;
+    }
+
+    .col-box-mission {
+        width: calc(100% / 2 - 10px);
+    }
+
+    #Contact .col-box-mission {
+        min-height: auto;
+    }
+
+    .mission-vision-box-main {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .specer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .home_title h1 {
+        font-size: 40px;
+    }
+
+    .img_up img {
+        max-width: 250px;
+    }
+
+    .bio {
+        justify-content: center !important;
+    }
+
+    .bio_left {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .col-box-mission {
+        width: 100%;
+    }
+}
+
+@media(max-width: 576px) {
+    .home-containt {
+        flex-direction: column;
+    }
+
+    .home_title {
+        padding-bottom: 20px;
+    }
+
+    .home_title h1 {
+        font-size: 32px;
+    }
+
+    .bio_left h2 {
+        font-size: 22px;
+    }
+}
