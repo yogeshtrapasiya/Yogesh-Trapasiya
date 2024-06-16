@@ -569,10 +569,6 @@ iframe {
     padding-bottom: 50px;
 }
 
-.conatain {
-    padding: 0 50px;
-}
-
 .conatain h4 {
     color: var(--white-color);
     font-family: 'Montserrat', sans-serif;
@@ -606,6 +602,10 @@ iframe {
 .conatain i {
     color: var(--white-color);
     padding: 5px;
+}
+
+.conatain:first-child {
+    padding-bottom: 50px;
 }
 
 /*==================== footer end ====================*/
